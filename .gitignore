@@ -1,0 +1,19 @@
+# Secret API keys and environment variables
+.env
+
+# Python Virtual Environment
+/venv
+
+# Generated Vector Database
+/db
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# IDE-specific folders
+.vscode/
+.idea/
+
+# macOS folder attributes
+.DS_Store
