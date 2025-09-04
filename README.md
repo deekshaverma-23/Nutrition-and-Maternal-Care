@@ -37,10 +37,10 @@ The application employs a sophisticated, multi-stage pipeline to handle user que
 
 1.  *Input:* The Streamlit UI captures user input, which can be text, an image, or both, along with profile data from the sidebar.
 2.  *Triage:* The system first determines if the query involves an image.
-3.  *Vision Path:* Image-based queries are routed directly to the *Google Gemini Pro Vision* model for analysis.
+3.  *Vision Path:* Image-based queries are routed directly to the *Google's gemini-1.5-flash* model for analysis.
 4.  *RAG Path:* Text-based queries are augmented with the user's profile. The language is detected, and the query is translated to English for optimal performance.
 5.  *Retrieval:* The query is used to retrieve the most relevant document chunks from the *ChromaDB* vector store.
-6.  *Generation:* The retrieved context, the user's question, and the personalized prompt are sent to *Google Gemini Pro* to generate a nuanced, context-aware answer.
+6.  *Generation:* The retrieved context, the user's question, and the personalized prompt are sent to *Google's gemini-1.5-flash* to generate a nuanced, context-aware answer.
 7.  *Output:* The generated response is translated back to the user's original language and delivered as both text and audible speech (TTS).
 
 ---
@@ -48,7 +48,6 @@ The application employs a sophisticated, multi-stage pipeline to handle user que
 ## Technology Showcase
 
 * *LangChain:* The core framework used to orchestrate the complex RAG pipeline, manage conversational memory, and chain together different LLM calls.
-* *Google Gemini Pro & Vision:* State-of-the-art models providing the reasoning, multilingual, and multimodal understanding capabilities that power the assistant.
 * *Streamlit:* Enables the rapid development of a rich, interactive, and user-friendly web interface.
 * *ChromaDB:* A high-performance vector database that allows for efficient local semantic search of the custom knowledge base.
 
@@ -62,12 +61,4 @@ Follow these steps to set up and run the project locally.
 2.  *Set Up Environment:* Create and activate a Python virtual environment.
 3.  *Install Dependencies:* pip install -r requirements.txt
 4.  *Add API Key:* Create a .env file and add your GOOGLE_API_KEY.
-5.  *Build Knowledge Base:* Add source PDFs to the data/ folder and run python ingest.py.
-
----
-
-## How to Use
-
-1.  Run the application: streamlit run main.py
-2.  Set the user profile in the sidebar.
-3.  Converse with the assistant in your preferred language, with or without images.
+5.  *Run the Application:* streamlit run main.py.
