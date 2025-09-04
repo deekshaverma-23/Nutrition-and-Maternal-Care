@@ -14,13 +14,10 @@ from langchain.memory import ConversationBufferMemory
 from langchain_core.messages import HumanMessage
 from langchain.prompts import PromptTemplate
 
-# Set the asyncio event loop
 asyncio.set_event_loop(asyncio.new_event_loop())
 
-# Load environment variables
 load_dotenv()
 
-# --- HELPER FUNCTIONS ---
 
 @st.cache_resource
 def get_llms():
@@ -62,14 +59,12 @@ def text_to_speech(text, lang):
         st.error(f"Error in TTS: {e}")
         return None
 
-# --- RAG AND VISION CHAIN SETUP ---
 
 DB_PATH = "db/"
 
 @st.cache_resource
 def get_rag_chain(_llms):
     """Creates and returns a personalized conversational RAG chain."""
-    # UPDATED: More specific instructions on language handling
     system_template = """
     You are a helpful AI assistant for nutrition and maternal care, specifically for people in India.
     Your answers should be simple, practical, and use locally understandable terms. 
@@ -96,7 +91,7 @@ def get_rag_chain(_llms):
         llm=_llms["llm"],
         retriever=retriever,
         memory=memory,
-        combine_docs_chain_kwargs={"prompt": QA_PROMPT} # Inject the new prompt
+        combine_docs_chain_kwargs={"prompt": QA_PROMPT} 
     )
     return conversational_chain
 
@@ -112,17 +107,14 @@ def get_image_response(image_obj, prompt, llms):
     response = llms["llm_vision"].invoke([human_message])
     return response.content
 
-# --- STREAMLIT UI SETUP ---
 
 st.set_page_config(page_title="AI Nutrition & Maternal Care Assistant", page_icon="🧑‍🍼")
 st.title("AI Nutrition & Maternal Care Assistant")
 
-# --- SIDEBAR FOR USER PROFILE ---
 with st.sidebar:
     st.header("👤 Your Profile")
     st.warning("This AI is for informational purposes, not medical advice. Always consult a doctor.")
     
-    # Initialize session state for profile
     if "user_type" not in st.session_state:
         st.session_state.user_type = "Pregnant/Lactating Woman"
     
@@ -131,7 +123,6 @@ with st.sidebar:
         ["Pregnant/Lactating Woman", "Infant (0-12 months)", "Child (1-5 years)"],
     )
 
-    # Dynamic profile options based on user type
     if st.session_state.user_type == "Pregnant/Lactating Woman":
         st.session_state.stage = st.selectbox("Stage:", ["1st Trimester", "2nd Trimester", "3rd Trimester", "Postpartum/Lactating"])
         st.session_state.diet = st.selectbox("Dietary Preference:", ["Vegetarian", "Non-Vegetarian", "Vegan"])
@@ -145,7 +136,6 @@ with st.sidebar:
 
     st.session_state.conditions = st.text_input("Allergies or Health Conditions:", "None")
 
-# --- MAIN CHAT INTERFACE ---
 llms = get_llms()
 
 if "messages" not in st.session_state:
@@ -178,10 +168,8 @@ if prompt := st.chat_input("Ask a question..."):
     with st.spinner("Thinking..."):
         final_response = ""
         if image_data:
-            # Vision model doesn't use the RAG chain's personalization yet, but could be added
             final_response = get_image_response(image_data, prompt, llms)
         else:
-            # Construct the user profile string based on user type
             user_profile = f"User Profile: [Category: {st.session_state.user_type}, "
             if st.session_state.user_type == "Pregnant/Lactating Woman":
                 user_profile += f"Stage: {st.session_state.stage}, Diet: {st.session_state.diet}, "
