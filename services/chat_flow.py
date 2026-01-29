@@ -82,12 +82,23 @@ def handle_prompt(
 
                 translated = translator.invoke(
                     f"""
-Translate into {target}.
-Return ONLY translated text.
+                You are a professional native translator.
 
-Text:
-{answer_en}
-"""
+                Task:
+                Translate the text below into {target}.
+
+                Rules:
+                - Return ONLY the translated text.
+                - Do NOT include explanations, titles, notes, or prefixes.
+                - Do NOT mention that this is a translation.
+                - Use natural, fluent, conversational language.
+                - Prefer Indian cultural phrasing where appropriate.
+                - Keep medical meaning accurate.
+                - Keep tone calm and helpful.
+
+                Text:
+                {answer_en}
+                """
                 )
 
                 final_response = str(translated).strip()
@@ -141,3 +152,5 @@ Text:
             st.session_state.conversation_id,
             title,
         )
+
+        st.rerun()

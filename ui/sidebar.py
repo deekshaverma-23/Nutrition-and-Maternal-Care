@@ -97,4 +97,3 @@ def render_sidebar():
                                 st.query_params["chat"] = next_id
                             elif "chat" in st.query_params:
                                 del st.query_params["chat"]
-
