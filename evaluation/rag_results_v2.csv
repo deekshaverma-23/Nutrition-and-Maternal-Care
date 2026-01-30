@@ -1,0 +1,131 @@
+question,answer,contexts,ground_truth,faithfulness,context_precision,context_recall,answer_relevancy
+What foods are good sources of iron for a pregnant woman?,"Iron is an essential nutrient for a pregnant woman! You need to increase your intake of iron-rich foods to support the growth of your baby and prevent anaemia. Good news is that there are many delicious options available!
+
+In addition to meat, fish, and poultry products, which provide easily absorbed iron, you can also get iron from plant-based sources like:
+
+* Green leafy vegetables: Spinach, amaranth, and kale are all great choices.
+* Legumes: Lentils, chickpeas, black beans, and kidney beans are excellent sources of iron.
+* Dry fruits: Dates, prunes, and apricots are good options.
+* Jaggery: This natural sweetener is a great source of iron.
+
+To boost the absorption of iron from plant-based foods, make sure to consume vitamin C-rich fruits like gooseberries (Amla), guava, or citrus fruits with your meals. Vitamin C helps increase the bioavailability of iron from these sources!
+
+Remember to avoid consuming beverages like tea close to mealtime, as they can bind to dietary iron and reduce its absorption.
+
+Stay healthy, mama!","['should be avoided before during or soon after a meal. \n/c63Commonly consumed plant based diets provide around 18mg of iron as against \nrecommended intake of 35mg per day. Therefore, supplementation of iron \n(100 mg elemental iron, 0.5 mg folic acid) is recommended for 100 days during \nth \npregnancy from 16  week onwards to meet the demands of pregnancy. \n24'
+ 'her to the MO to get her blood sugar examined and a glucose tolerance test carried out, \nif required. \n(Practise steps of estimation of Hb; urine for protein and sugar – Checklist No. 1.4 in SBA \nH\nandbook)\nIV. Interventions\nIFA supplementation\n/circle6 While talking to the pregnant woman, stress the need for increased intake of iron during \npregnancy and also if she is anaemic. Th is helps preventing the complications due to \nanaemia. Besides recommending IFA supplementation, counsel the woman to increase \nher dietary intake of iron-rich foods, such as green leafy vegetables, whole pulses, \njaggery, meat, poultry and fi sh. Ensure that you have adequate supplies of IFA in your \nstock to meet the requirements of all pregnant women registered with you.\n/circle6 Prophylactic dose: All pregnant women need to be given one tablet of IFA (100 mg \nelemental iron and 0.5 mg folic acid) every day for at least 100 days, starting aft  er the'
+ 'EAT IRON-RICH FOODS \n/c63Iron is needed for hemoglobin synthesis, mental function and to provide \nimmunity against diseases. \n/c63Deficiency of iron leads to anemia. \n/c63Iron deficiency is common particularly in women of reproductive age and \nchildren. \n/c63Iron deficiency during pregnancy increases maternal mortality and low birth \nweight infants. \n/c63In children, it increases susceptibility to infection and impairs learning ability. \n/c63Plant foods like green leafy vegetables, legumes and dry fruits contain iron. \n/c63Iron is also obtained through meat, fish and poultry products. \n/c63Iron bio-availability is poor from plant foods but is good from animal foods. \n/c63Vitamin C - rich fruits like gooseberries (Amla), guava and citrus improve iron \nabsorption from plant foods. \n/c63Beverages like tea bind dietary iron and make it unavailable. Hence, they \nshould be avoided before during or soon after a meal.']","Iron is an essential nutrient for a pregnant woman! You need to increase your intake of iron-rich foods to support the growth of your baby and prevent anaemia. Good news is that there are many delicious options available!
+
+In addition to meat, fish, and poultry products, which provide easily absorbed iron, you can also get iron from plant-based sources like:
+
+* Green leafy vegetables: Spinach, amaranth, and kale are all great choices.
+* Legumes: Lentils, chickpeas, black beans, and kidney beans are excellent sources of iron.
+* Dry fruits: Dates, prunes, and apricots are good options.
+* Jaggery: This natural sweetener is a great source of iron.
+
+To boost the absorption of iron from plant-based foods, make sure to consume vitamin C-rich fruits like gooseberries (Amla), guava, or citrus fruits with your meals. Vitamin C helps increase the bioavailability of iron from these sources!
+
+Remember to avoid consuming beverages like tea close to mealtime, as they can bind to dietary iron and reduce its absorption.
+
+Stay healthy, mama!",1.0,0.5833333333041666,0.5,0.8907110694196061
+6 महीने के बच्चे को कौन सा खाना देना चाहिए?,"A great question! At 6 months, your little one is growing rapidly and needs a balanced diet to support their development. Here are some nutritious food options you can introduce:
+
+* Ripe fruits like bananas, mangoes, and papayas
+* Mashed vegetables like sweet potatoes, carrots, and green beans
+* Iron-rich foods like mashed lentils, chickpeas, or split peas
+* Whole grain cereals or crackers
+
+Remember to breastfeed your child exclusively until 6 months, as recommended by the World Health Organization. As you start introducing solids, make sure to:
+
+* Start with single-ingredient purees to monitor for any signs of allergy or intolerance
+* Mix small amounts of food with breast milk to ensure a smooth transition
+* Offer small amounts (about 1-2 teaspoons) at each feeding session
+
+It's essential to consult your pediatrician before making any significant changes to your child's diet. They can provide personalized guidance and help you navigate any concerns.
+
+Keep in mind that every baby is unique, so be patient and observe your child's cues. If they show signs of not liking a particular food or have an allergy, don't hesitate to consult your pediatrician for advice.","['List of Contributors\n1 Ms. Anuradha Gupta AS&MD, MoHFW\n2 Dr. Rakesh Kumar JS (RCH), MoHFW\n3 Dr. Himanshu Bhushan DC (I/C,MH), MoHFW\n4 Dr. Manisha Malhotra DC (MH), MoHFW\n5 Dr. Dinesh Baswal DC (MH), MoHFW\n6 Dr. S.K. Sikdar DC (I/C,FP), MoHFW\n7 Dr. P .K. Prabhakar DC (CH), MoHFW\n8 Dr. P . Padmanaban Advisor, NHSRC, MoHFW\n9 Mr. K.S. Prasanth Senior Consultant, NHSRC, MoHFW\n10 Dr. Manju Chhugani Principal, Jamia Hamdard\n11 Dr. Archana Mishra DD (MH), Government of Madhya pradesh\n12 Dr. Alka Gupta DD (MH), Government of Chattisgarh\n13 Dr. Poonam Varma Shivkumar Prof. Of OBGY , MGIMS, Wardha\n14 Dr. Dinesh Agarwal UNFPA\n15 Dr. Aboli Gore MP-TAST , Bhopal\n16 Dr. Malalay Ahmadzai UNICEF\n17 Dr. Pavitra Mohan UNICEF\n18 Dr. V.K. Anand UNICEF\n19 Dr. Ritu Agrawal UNICEF\n20 Dr. Bulbul Sood Country Director, Jhpiego\n21 Dr. Somesh Kumar Jhpiego\n22 Dr. Rashmi Asif Jhpiego\n23 Dr. Ravinder Kaur Sr. Consultant, MH, MoHFW\n24 Dr. Pushkar Kumar Lead Consultant, MH, MoHFW'
+ 'Figure 6: RMNCH – Ground Floor\nPlanning and Organizing MNH Services 53\nMaternal and Newborn Health Toolkit'
+ 'GROWING WELL \nIN A CHANGING \nWORLDIntroduction']","A great question! At 6 months, your little one is growing rapidly and needs a balanced diet to support their development. Here are some nutritious food options you can introduce:
+
+* Ripe fruits like bananas, mangoes, and papayas
+* Mashed vegetables like sweet potatoes, carrots, and green beans
+* Iron-rich foods like mashed lentils, chickpeas, or split peas
+* Whole grain cereals or crackers
+
+Remember to breastfeed your child exclusively until 6 months, as recommended by the World Health Organization. As you start introducing solids, make sure to:
+
+* Start with single-ingredient purees to monitor for any signs of allergy or intolerance
+* Mix small amounts of food with breast milk to ensure a smooth transition
+* Offer small amounts (about 1-2 teaspoons) at each feeding session
+
+It's essential to consult your pediatrician before making any significant changes to your child's diet. They can provide personalized guidance and help you navigate any concerns.
+
+Keep in mind that every baby is unique, so be patient and observe your child's cues. If they show signs of not liking a particular food or have an allergy, don't hesitate to consult your pediatrician for advice.",0.6666666666666666,0.5833333333041666,1.0,0.5194622597663452
+Can I drink turmeric milk during the first trimester?,"Aama! During the first trimester of pregnancy, it's always best to prioritize a balanced diet that includes nutritious foods like whole grains, fruits, vegetables, lean proteins, and healthy fats. As for turmeric milk, it's generally considered safe to consume in moderation during pregnancy.
+
+Turmeric contains a powerful compound called curcumin, which has anti-inflammatory properties that can be beneficial for women's health. However, since you're asking about the first trimester, I want to emphasize the importance of maintaining a healthy diet and lifestyle throughout your pregnancy.
+
+In the first trimester, it's essential to focus on nutrient-dense foods that support fetal development. While turmeric milk is not a crucial part of your diet at this stage, you can still enjoy it in moderation as an occasional treat or supplement. Just be sure to avoid excessive consumption, as excessive curcumin intake may cause stomach upset.
+
+Remember to prioritize a balanced diet rich in essential nutrients like iron, calcium, and folic acid. Also, consider consulting with your healthcare provider or a registered dietitian for personalized guidance on your specific nutritional needs during this critical period.","['lime and watermelon). \n/circle6 Th  e woman should avoid taking tea, coff ee or milk within an hour aft er a meal, as these \nhave been shown to interfere with the absorption of iron. Also, advise her to take foods \n/circle6  Active labour lasting longer than 12 \nhours in a primipara and more than 8 \nhours in a multipara\n/circle6 Continuous severe abdominal pain\n/circle6  Premature rupture of membranes \n(PROM) before 37 weeks\n/circle6  High BP (>140/90 mmHg) with proteins \nin the urine, and severe headache with \nblurred vision or epigastric pain\n/circle6 Temperature more than 38°C\n/circle6  Foul smelling discharge before or aft er \ndelivery/abortion\n/circle6  Ruptured membranes for more than 18 \nhours\n/circle6 FHR >160/minute or <120/minute\n/circle6 Perineal tear ( 2nd, 3rd and 4th degree)\nNote: If the ANM is not able to decide on whether she should send a case to the FRU or 24 hour PHC, she \nshould refer the case to the FRU.'
+ 'content of docosahexaeonic acid (DHA) which plays an important role in brain \ndevelopment. \nMother-infant contact should be established as early \nas possible (immediately after birth) by permitting the \ninfant to suck at the breast. Mothers can breast-feed \nfrom as early as 30 minutes after delivery. \nColostrum should be made available to the infant \nimmediately after birth. Feeding honey, glucose, \nwater or dilute milk formula before lactation should be \navoided and the infant should be allowed to suck, which \nhelps in establishing lactation. Colostrum should not be \ndiscarded, as is sometimes practiced. \nBreast-feeding in India is common among the rural and urban poor, being less so \namong the urban middle and upper classes. The poorer groups continue breast- \nfeeding for longer duration than the educated upper and middle income groups. The \neconomically advantaged or the working mother tends to discontinue breast-feeding'
+ 'Guideline 2 \nWhy additional diet is required during pregnancy and lactation ? \nWhat are the nutrients that require special attention ? \nEnsure provision of extra food and healthcare to \npregnant and lactating women \nRationale: \n/c63Pregnancy is physiologically and nutritionally a highly demanding period. Extra \nfood is required to meet the requirements of the fetus. \n/c63A woman prepares herself to meet the nutritional demands by increasing her \nown body fat deposits during pregnancy. \n/c63A lactating mother requires extra food to secrete adequate quantity/ quality of \nmilk and to safe guard her own health. \nPregnancy is a demanding physiological state.  In India, it is observed that diets \nof women from the low socioeconomic groups are essentially similar during pre- \npregnant, pregnant and lactating periods. Consequently, there is widespread \nmaternal malnutrition leading to high prevalence of low birth weight \ninfants and very high maternal mortality. Additional foods are required']","Aama! During the first trimester of pregnancy, it's always best to prioritize a balanced diet that includes nutritious foods like whole grains, fruits, vegetables, lean proteins, and healthy fats. As for turmeric milk, it's generally considered safe to consume in moderation during pregnancy.
+
+Turmeric contains a powerful compound called curcumin, which has anti-inflammatory properties that can be beneficial for women's health. However, since you're asking about the first trimester, I want to emphasize the importance of maintaining a healthy diet and lifestyle throughout your pregnancy.
+
+In the first trimester, it's essential to focus on nutrient-dense foods that support fetal development. While turmeric milk is not a crucial part of your diet at this stage, you can still enjoy it in moderation as an occasional treat or supplement. Just be sure to avoid excessive consumption, as excessive curcumin intake may cause stomach upset.
+
+Remember to prioritize a balanced diet rich in essential nutrients like iron, calcium, and folic acid. Also, consider consulting with your healthcare provider or a registered dietitian for personalized guidance on your specific nutritional needs during this critical period.",0.5,0.3333333333,0.5,0.6783117228034637
+My newborn has fever and is not feeding well. What should I do?,"Beta! I'm here to help. First, please don't worry too much. Fever and poor feeding are common issues in newborns, and we can work through this together.
+
+Let's start with the fever. It's essential to monitor your baby's temperature regularly and keep an eye on any changes. If your baby's fever is mild (less than 38°C or 100.4°F), you can try these steps:
+
+1. Dress your baby warmly, as fever can make them lose heat quickly.
+2. Offer breast milk frequently, as it helps with hydration and nutrition.
+3. Keep an eye on the temperature and watch for any signs of worsening fever (like increased fussiness or changes in breathing).
+
+If your baby's fever is more severe (above 38°C or 100.4°F) or shows signs of getting worse, please consult a healthcare provider as soon as possible.
+
+Now, let's talk about the poor feeding. It's not uncommon for newborns to have trouble latching or feeding initially, especially if they're feeling unwell. Here are some tips:
+
+1. Make sure you're sitting comfortably and holding your baby correctly.
+2. Gently stimulate your baby's mouth by running a clean finger around their lips and nose.
+3. Offer breast milk frequently, even if your baby doesn't seem interested at first.
+
+Remember, it's crucial to consult a healthcare provider if you notice any of the following:
+
+* Fever above 38°C or 100.4°F
+* Worsening fever
+* Increased fussiness or changes in breathing
+* Poor feeding that lasts more than 24 hours
+
+They will be able to assess your baby and provide personalized guidance.
+
+Please don't hesitate to reach out if you have any further concerns or questions, beta!","['PREPARATION OF AMYLASE RICH FOOD (ARF) \nHow to feed a young infant? \nWhat are the hygienic practices to be adopted? \nTake 250 g of wheat  \nAdd 2-3 volumes of water soak it for 8 hrs \nDrain excess water  \nGerminate wheat in dark for 24-48 hours \nSun dry for 5-8 hours \nRoast gently in flat pan just to remove water \nGrind and powder the grains (ARF) \nStore in airtight bottles/jars \n Add 5 g (one tea spoon) of ARF, after cooking, to every feed \nInfants cannot eat large quantities of food in one sitting at a given time. So, they \nshould be fed small quantities at frequent intervals (3-4 times a day). Also, the food \nshould be of semi-solid consistency for easy swallowing. When such semi-solid \nfoods are offered initially, the infant tends to spit it out. This should not be mistaken as \ndislike for that food. The fact is that the young infant cannot achieve full coordination \nneeded for the act of swallowing and hence, brings out the food by movements of its'
+ 'Antenatal Care and Skilled Attendance at Birth by ANMs/LHVs/SNsGUIDELINES\n54\n/lozenge6 Th e baby can feed whether the mother is lying down or sitting. What is \nimportant is that both mother and baby should be comfortable.\n/lozenge6 Do not give artifi  cial teats or pre-lacteal feeds, such as sugar water or local \nfoods, or even water to the newborn.\n/circle6 Weigh all babies before they leave the delivery room.\n/circle6 Delay the baby’s fi  rst bath to beyond 24 hours of birth.\n/circle6 Ensure that the baby is dressed warmly and is with the mother.\n/circle6 Watch for complications such as convulsions, coma and feeding problems. Refer the \nbaby if these are present.\n(Practise Care of the Mother and Newborn - Checklist No. 2.6 in SBA Handbook)\nNewborn Resuscitation\n/circle6 Approximately 10% of newborns require some assistance to begin breathing at birth; \nabout 1% need extensive resuscitative measures to survive.'
+ ""Level 1 (SC/non 24x7 \nPHC)\nLevel 2 (24x7 \nPHC/non-FRU CHC) \nLevel 3 (FRU \nCHC/SDH/DH) \nNewborn \nCare\nl\nn\nl\nn\nn\nCare of normal \nnewborn \nBreastfeeding/ \nfeeding support, \nthermo-regulation \nand asepsis\nCare of sick newborn\nIdentification,  \nstabilization and  \ninitial management  \nof complications \n(sepsis, \nLBW/premature \nbabies, etc.)  before \nreferral and prompt \nreferral of 'sick' \nnewborn\nReferral services\nn\nn\nn\nPhototherapy for \nnewborns with \nhyperbilirubinemia \nManagement of \nnewborn sepsis\nStabilization and \nreferral of sick \nnewborns and those \nwith very low birth \nweight\nn\nn\nManagement of all \nsick newborns \n(except those \nrequiring mechanical \nventilation and \nmajor surgical \ninterventions)\nFollow-up of all \nbabies discharged \nfrom the unit and \nincluding of high-risk \nnewborns.\nRequired \nSkills\nl SBA, IMNCI, NSSK, \nIUCD\nAll in Level 1, plus the\nfollowing: \nBEmOC, Minilap, \nMTP , FIMNCI, NSV, \nTraining for RTI/STI\nl\nAll in Level 2, plus the \nfollowing:\nEmOC, LSAS, FBNC,""]","Beta! I'm here to help. First, please don't worry too much. Fever and poor feeding are common issues in newborns, and we can work through this together.
+
+Let's start with the fever. It's essential to monitor your baby's temperature regularly and keep an eye on any changes. If your baby's fever is mild (less than 38°C or 100.4°F), you can try these steps:
+
+1. Dress your baby warmly, as fever can make them lose heat quickly.
+2. Offer breast milk frequently, as it helps with hydration and nutrition.
+3. Keep an eye on the temperature and watch for any signs of worsening fever (like increased fussiness or changes in breathing).
+
+If your baby's fever is more severe (above 38°C or 100.4°F) or shows signs of getting worse, please consult a healthcare provider as soon as possible.
+
+Now, let's talk about the poor feeding. It's not uncommon for newborns to have trouble latching or feeding initially, especially if they're feeling unwell. Here are some tips:
+
+1. Make sure you're sitting comfortably and holding your baby correctly.
+2. Gently stimulate your baby's mouth by running a clean finger around their lips and nose.
+3. Offer breast milk frequently, even if your baby doesn't seem interested at first.
+
+Remember, it's crucial to consult a healthcare provider if you notice any of the following:
+
+* Fever above 38°C or 100.4°F
+* Worsening fever
+* Increased fussiness or changes in breathing
+* Poor feeding that lasts more than 24 hours
+
+They will be able to assess your baby and provide personalized guidance.
+
+Please don't hesitate to reach out if you have any further concerns or questions, beta!",0.6363636363636364,0.0,0.2857142857142857,0.9031675364254929

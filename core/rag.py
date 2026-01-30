@@ -7,8 +7,7 @@ from langchain_ollama import OllamaEmbeddings
 
 DB_PATH = "db/"
 
-@st.cache_resource
-def get_rag_chain(llms):
+def get_rag_chain(_llms):
 
     embeddings = OllamaEmbeddings(model="nomic-embed-text")
 
@@ -67,7 +66,7 @@ def get_rag_chain(llms):
     )
 
     document_chain = create_stuff_documents_chain(
-        llms["llm"],
+        _llms["llm"],
         prompt,
     )
 

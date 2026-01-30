@@ -1,0 +1,5 @@
+,run_1,run_2,delta,percent_change
+faithfulness,0.5536,0.7008,0.1472,26.5885
+context_precision,0.4167,0.375,-0.0417,-10.0
+context_recall,0.5737,0.5714,-0.0023,-0.3962
+answer_relevancy,0.6975,0.7479,0.0505,7.2353
